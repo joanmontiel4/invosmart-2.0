@@ -1,0 +1,22 @@
+@use '../../styles/shared';
+
+.tabs {
+    list-style: none;
+    width: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1.8rem 0;
+
+    &__link {
+        text-decoration: none;
+        font-family: shared.$primary-font-family;
+        color: black;
+        font-weight: shared.$primary-font-weight;
+        padding: 0.2rem;
+    }
+
+    &__link:hover {
+        border-bottom: 1px solid grey;
+    }
+}

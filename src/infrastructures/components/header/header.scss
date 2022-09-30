@@ -1,0 +1,21 @@
+@use '../../styles/shared';
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid grey;
+
+    &__title {
+        font-family: shared.$primary-font-family;
+        font-size: 2rem;
+        margin: 0 0;
+        color: black;
+    }
+}
+
+// .login-container {
+//     height: 100%;
+//     margin: auto;
+// }
