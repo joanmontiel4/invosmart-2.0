@@ -2,6 +2,9 @@ export interface iClient {
     id: number;
     token: string;
     name: string;
+    email: string;
+    phoneNumber: string;
+    address: string;
     status: string;
     services: Array<iService>;
 }
@@ -9,5 +12,7 @@ export interface iClient {
 interface iService {
     id: number;
     token: string;
-    name: string;
+    concept: string;
+    quantity: number;
+    unitPrice: number;
 }

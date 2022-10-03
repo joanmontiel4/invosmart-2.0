@@ -1,4 +1,5 @@
 export interface iProperty {
     id: string;
-    location: string;
+    token: string;
+    address: string;
 }

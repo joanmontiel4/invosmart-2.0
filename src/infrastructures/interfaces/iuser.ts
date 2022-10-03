@@ -7,6 +7,8 @@ export interface iUser {
     name: string;
     alias: string;
     email: string;
+    phoneNumber: string;
+    address: string;
     clients: Array<iClient>;
     properties: Array<iProperty>;
 }
