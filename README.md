@@ -2,13 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Project dependencies
+# Project additional dependencies besides the ones that comes with create-react-app
 
 -   Typescript
--   Prettier
+-   Eslint-config-prettier
 -   React-to-print
 -   React-Router-DOM
 -   Sass
+-   JSON Server
 
 Here is the summary of instalation commands used for this project:
 
@@ -17,3 +18,4 @@ Here is the summary of instalation commands used for this project:
 -   npm install --save react-to-print
 -   npm i react-router-dom
 -   npm install sass
+-   npm i json-server
