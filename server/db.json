@@ -1,0 +1,31 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "token": "test-token",
+            "name": "test_name",
+            "alias": "test_name",
+            "email": "test_email",
+            "phoneNumber": "test_phone_number",
+            "address": "test_address",
+            "clients": [
+                {
+                    "id": 1,
+                    "token": "test-token_client",
+                    "name": "test_name_client",
+                    "alias": "test_name_client",
+                    "email": "test_email_client",
+                    "phoneNumber": "test_phone_number",
+                    "address": "test_address"
+                }
+            ],
+            "properties": [
+                {
+                    "id": 1,
+                    "token": "test-token_property",
+                    "address": "test_address_property"
+                }
+            ]
+        }
+    ]
+}
